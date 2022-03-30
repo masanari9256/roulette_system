@@ -27,9 +27,9 @@ if __name__ == '__main__':
     # print(number)
 
     # 目標勝利数を決める
-    TARGET_WIN_COUNT = os.environ['TARGET_WIN_COUNT']
-    MAX_MARTIN_TIMES = os.environ['MAX_MARTIN_TIMES']
-    MAX_LOSE_COUNT = os.environ['MAX_LOSE_COUNT']
+    TARGET_WIN_COUNT = int(os.environ['TARGET_WIN_COUNT'])
+    MAX_MARTIN_TIMES = int(os.environ['MAX_MARTIN_TIMES'])
+    MAX_LOSE_COUNT = int(os.environ['MAX_LOSE_COUNT'])
 
     # 変数の宣言
     bet_timing = 0
