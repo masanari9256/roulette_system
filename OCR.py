@@ -19,7 +19,7 @@ def get_roulette_number():
     save_folder_name = 'Roulette_picture'
     save_file_name = 'Roulette_number.png'
 
-    s = shot(1940, 343, 45, 27)
+    s = shot(1925, 343, 45, 27)
     s.save(save_folder_name + '/' + save_file_name)
 
     # モノクロにする
